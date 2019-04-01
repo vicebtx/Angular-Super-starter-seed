@@ -1,0 +1,18 @@
+<ion-content align-items-center justify-content-center class="no-scroll">
+<div class="login-container">
+  <div class="login-wrap">
+    <div class="logo">
+    </div>
+
+    <form [formGroup]="form" >
+      <formly-form [form]="form" [fields]="fields" [model]="model"></formly-form>
+      <ion-button type="submit" expand="full" [disabled]="!form.valid" (click)="login()">Login</ion-button>
+    </form>
+
+    <div text-center>
+       
+    </div>
+  </div>
+
+</div>
+</ion-content>

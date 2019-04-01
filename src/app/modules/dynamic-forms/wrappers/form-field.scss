@@ -1,0 +1,17 @@
+.input-error {
+  background: white !important;
+  padding: 0px;
+
+  p {
+    margin-left: 30%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 20px;
+    text-overflow: inherit;
+    overflow: inherit;
+    background: var(--ion-color-danger);
+    right: 0px;
+    color: white;
+  }
+}
